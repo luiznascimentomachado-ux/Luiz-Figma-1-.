@@ -4,7 +4,11 @@
 --jet: #333333ff;
 --timberwolf: #d5ccc7ff;
 --silver: #a9a29cff;
---raisin-black: #28262bff;
+--black: #28262bff;
 --titulo:"SUSE Mono", sans-serif;
 --texto:"Playfair Display", serif;
+}
+body{
+    background-color:  var(--silver);
+    font-family: var(--texto);
 }
