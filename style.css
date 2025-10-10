@@ -12,8 +12,8 @@ body{
     background-color:  var(--silver);
     font-family: var(--texto);
     margin: 0;
-    display: flex;
     padding: 0;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -23,6 +23,18 @@ main{
     text-align: center;
 }
 button{
-    border: 2px;
+    font-family: var(--titulo);
+    background-color: var(--jet);
+    color: var(--timberwolf);
+    border: 2px solid var(--black);
+    padding: 20px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
 }
-button :hover
+button:hover{
+    background-color: var(--timberwolf);
+    color: var(--jet);
+    transition: 0.5s;
+}
