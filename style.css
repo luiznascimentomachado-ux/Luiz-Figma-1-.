@@ -19,7 +19,7 @@ body{
 }
 main{
     margin: 20px;
-    max-width: 90px;
+    max-width: 90%;
     text-align: center;
 }
 button{
@@ -37,4 +37,12 @@ button:hover{
     background-color: var(--timberwolf);
     color: var(--jet);
     transition: 0.5s;
+}
+.passo{
+    font-size: 20px;
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
 }
