@@ -46,3 +46,7 @@ button:hover{
 .passo.ativo{
     display: block;
 }
+
+.passo{
+    display: none;
+}
