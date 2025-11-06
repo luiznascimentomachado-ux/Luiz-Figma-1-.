@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root{
+--jet: #333333ff;
+--timberwolf: #d5ccc7ff;
+--silver: #a9a29cff;
+--black: #28262bff;
+--titulo:"SUSE Mono", sans-serif;
+--texto:"Playfair Display", serif;
+}
+body{
+    background-color:  var(--silver);
+    font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+button{
+    font-family: var(--titulo);
+    background-color: var(--jet);
+    color: var(--timberwolf);
+    border: 2px solid var(--black);
+    padding: 20px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: var(--timberwolf);
+    color: var(--jet);
+    transition: 0.5s;
+}
+.passo{
+    font-size: 20px;
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+.passo{
+    display: none;
+}
